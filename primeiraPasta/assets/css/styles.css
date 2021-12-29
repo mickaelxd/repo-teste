@@ -3,7 +3,15 @@ body {
     color: white;
 }
 
-img {
+.body {
+    display: flex-table;
+}
+
+.body img {
+    justify-self: center;
     width: 100px;
     height: 100px;
+    border-radius: 5px;
+    border-style: solid;
+    border-color: white;
 }
